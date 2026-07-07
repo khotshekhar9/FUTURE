@@ -267,10 +267,9 @@ h3 {
 }
 
 /* 1. Base Styles for Circular Profile Card */
-/* 1. Base Styles for Circular Profile Card */
 .profile-card {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -281,7 +280,7 @@ h3 {
   box-shadow: var(--shadow);
   
   /* 2. Position Shift (Moves it slightly UP and RIGHT) */
-  transform: translate(40px, -20px);
+  transform: translate(20px, -20px);
   
   /* 3. Highlight on Borders (Dual Border Effect) */
   border: 3px solid transparent;
